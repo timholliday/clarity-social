@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/beta",
+      "destination": "https://claritysocial-beta.vercel.app",
+      "permanent": false
+    },
+    {
+      "source": "/beta/:path*",
+      "destination": "https://claritysocial-beta.vercel.app/:path*",
+      "permanent": false
+    }
+  ]
+}
